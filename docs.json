@@ -33,8 +33,5 @@
         ]
       }
     ]
-  },
-  "styles": {
-    "css": ["/styles.css"]
   }
 }
