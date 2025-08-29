@@ -11,17 +11,17 @@
     "light": "/logo/Brixlogo.png",
     "dark": "/logo/Brixlogo.png"
   },
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Docs",
-        "pages": [
-          "index",
-          "index-zh"
-        ]
-      }
-    ]
-  },
+ "navigation": {
+  "tabs": [
+    {
+      "tab": "Docs",
+      "pages": [
+        { "name": "English", "path": "index" },
+        { "name": "中文", "path": "index-zh" }
+      ]
+    }
+  ]
+},
   "footer": {
     "message": "© 2025 BRIX. All rights reserved.",
     "columns": [
