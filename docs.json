@@ -2,24 +2,28 @@
   "$schema": "https://mintlify.com/docs.json",
   "name": "BRIX Docs",
   "theme": "mint",
-  "logo": "/Brixlogo.png",
   "colors": {
     "primary": "#1A634A",
     "light": "#07C093",
     "dark": "#15805D"
   },
+  "logo": {
+    "light": "/logo/Brixlogo.png",
+    "dark": "/logo/Brixlogo.png"
+  },
   "navigation": {
     "tabs": [
       {
         "tab": "Docs",
-        "groups": [
-          { "group": "English", "pages": ["index"] },
-          { "group": "中文", "pages": ["index-zh"] }
+        "pages": [
+          "index",
+          "index-zh"
         ]
       }
     ]
   },
   "footer": {
+    "message": "© 2025 BRIX. All rights reserved.",
     "columns": [
       {
         "title": "Company",
